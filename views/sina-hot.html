@@ -1,0 +1,36 @@
+<div id="hot-page">
+  <div class="hot-wrap">
+    <ul class="hot-lists">
+      <li class="hot-item" ng-repeat="v in list" ng-class="{one:$first}">
+        <a href="">
+          <div class="hot-pic">
+            <img src="{{v.image}}" alt="">
+            <p class="top-count">
+              <span class="top">TOP</span>
+              <span class="count">{{v.top}}</span>
+            </p>
+          </div>
+          <div class="hot-info">
+            <span class="hot-title">高考结束了，准备怎么浪?</span>
+            <span class="hot-desc">考生说了：吃、睡、玩。</span>
+          </div>
+        </a>
+      </li>
+      <!-- <li class="hot-item">
+        <a href="">
+          <div class="hot-pic">
+            <img src="image/hot1.jpg" alt="">
+            <p class="top-count">
+              <span class="top">TOP</span>
+              <span class="count">01</span>
+            </p>
+          </div>
+          <div class="hot-info">
+            <span class="hot-title">高考结束了，准备怎么浪?</span>
+            <span class="hot-desc">考生说了：吃、睡、玩。</span>
+          </div>
+        </a>
+      </li> -->
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+<div id="shipin-page" class="page">
+  <div class="shipin-wrap">
+    <ul class="shipin-lists">
+      <li class="shipin-item" ng-repeat="v in listShipin">
+        <h5><a href="">{{v.title}}</a></h5>
+        <div class="shipin-content">
+          <div class="shipin-pic">
+            <img src={{v.image}} alt="">
+            <div class="player"></div>
+          </div>
+          <div class="share-pinglun">
+            <div class="share btn">
+              <span class="iconfont icon-fenxiang"></span>
+              <span class="share-t">分享</span>
+            </div>
+            <div class="pinglun btn">
+              <span class="iconfont icon-pinglun"></span>
+              <span class="pinglun-t">评论</span>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
